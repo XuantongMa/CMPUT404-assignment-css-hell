@@ -12,6 +12,16 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Part 1 Modifications
+====================
+- Add the old brown paper background
+- Change the font of body to Times New Roman
+- Change the font of paragraph to Arial
+- Increase the font size of body and paragraph
+- Add a black block to the 1st header and the book cover image
+- Add bold font to the headers
+- Zoom out the image
+
 License/Copyright
 =================
 
