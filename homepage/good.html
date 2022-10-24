@@ -1,33 +1,84 @@
+<!-- Copyright 2022 Xuantong Ma
+    
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.-->
+
 <!DOCTYPE html>
 <HTML lang="en">
 <head>
     <meta charset="utf-8">
-    <title>My homepage</title>
+    <title >My Good homepage</title>
     <link rel="stylesheet" href="good.css">
+    <style>
+        div.photo img{
+            position:relative;
+            left: 30px;
+            border: 3px solid white;
+            width: 150px;
+            height:150px; 
+            border-radius:50%;
+            border-color:rgb(160, 189, 214)
+        }
+        body {
+            background-image: url("back.jpg");
+            background-position: left;
+            margin-right: 200px;
+            background-size: 100% 100%;
+            
+        }
+    </style>
 </head>
-<h1>Hello, I am Xuantong Ma.</h1>
+
+
 <body>
-    <div>
-        <img src="back.jpg" style="width:100%;" alt="[Illustration]" />
+
+    <div class = "photo">
+        <span style="color:#fbffc4; font-size: 30px; font-weight: bold; font-family:'Courier New', monospace;">Hello, I am Xuantong Ma. Welcome to my homepage!</span>
+        <img src="photo.jpg" alt="myself" width="170" height="200">
     </div>
 
+    <div class = "intro">
+        <h1 style="color:#fbffc4"> ❀Introducing Myself❀</h1>
+            <p style="color:#866ce1">
+                I am an international undergraduate student at the University of Alberta.<br/>
+                Right now it is my fourth-year study in the Specialization of Computing Science Program.<br/>
+                I am interested in video games development and E-sport relevant. 
+            </p>
+    </div>
 
+    <div class = "background"></div>
+        <h2 style="color:#fbffc4"> ❀My Educational Background❀</h2>
+            <p style="color:#866ce1">
+                • Courses: Algorithms, File and Database Management, Practical Programming Methodology, Software Engineering, Elementary Calculus, Intermediate French<br/>
+                • Android Software: QR Hunter: https://github.com/xxx/QRHunter
+
+            </p>
+    </div>
+        
+    <div class = "skills">
+        <h3 style="color:#fbffc4"> ❀My Skills and Hobbies❀</h3>
+            <P style="color:#866ce1">
+                • Language: Cantonese, Mandarin, English, French <br/>
+                • Programming Language: Python, JavaScript, C#, MIPS<br/>
+                • Others: SQLite, MongoDB, Microsoft Office<br/>
+                • Hobbies: Kpop, Video games, Dancing, Animation<br/>
+            </P>
+    </div>
+
+    <div class = "Contact">
+        <h4 style="color:#fbffc4"> ❀Contact❀</h4>
+        <img src="gmail.png" width="30" height="30"> <span style="color:#866ce1">Gmail: xuantong@ualberta.ca<br/></span>
+        <img src="instagram.png" width="30" height="30"> <span style="color:#866ce1">Instagram: xxxxxx<br/></span>
+        <img src="wechat.png" width="30" height="30"> <span style="color:#866ce1">Wechat: xxxxxxx<br/></span>
+    </div>
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</HTML>
